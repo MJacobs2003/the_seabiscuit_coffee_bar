@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--grey_normal);
+    font-family: 'Montserrat';
+    color: var(--grey_dark);
+}
+
+:root {
+    --box_shadow_dark: rgba(149, 157, 165,0.2);
+    --box_shadow_bright: rgba(197, 197, 197, 0.2);
+    --backdrop: rgba(0, 0, 0, 0.288);
+    --grey_bright: #3d3d3d;
+    --grey_normal: #2e2e2e;
+    --grey_dark: #1e1e1e;
+    --grey_hover: #1e1e1ea9;
+    --gold: #a89b44;
+    --gold_hover: red;
+    --white: #ffffff;
+    --shadow: blue;
+}

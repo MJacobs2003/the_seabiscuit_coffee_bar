@@ -1,0 +1,25 @@
+.Ap-login-shade {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--backdrop);
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: 999;    
+    align-items: center;
+    justify-content: center;
+}
+
+.Ap-login-box {
+    width: 25vw;
+    height: 25vw;
+    background-color: var(--white);
+    position: relative;
+    box-shadow: 0 8px 24px var(--box_shadow_bright);
+    border: 0;
+    border-radius: 3%;
+}
+
+.ApOverlay {
+    background-color: transparent;
+}

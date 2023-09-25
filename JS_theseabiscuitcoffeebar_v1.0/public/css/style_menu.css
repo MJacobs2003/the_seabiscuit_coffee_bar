@@ -1,0 +1,108 @@
+.Menu {
+    width: 0vw;
+    height: 100vh;
+    background-color: var(--white);
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: hidden;
+    transition: .2s;
+    box-shadow: 0 8px 24px rgba(42, 43, 44, 0.2);
+}
+
+.Menu_shade {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: var(--backdrop);
+    z-index: 99;
+    display: none;
+}
+
+.Menu-head {
+    height: 7vh;
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+}
+
+.Menu-btn-close {
+    height: 5vh;
+    width: 5vh;
+    background-color: transparent;
+    background-image: url("../assets/icons/menu_close_arrow_96x96.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 0;
+    float: right;
+    position: relative;
+    margin-right: .5vw;
+    margin-top: 1vh;
+    cursor: pointer;
+}
+
+
+
+.Menu-content {
+    min-height: 10vh;
+    width: 80%;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+}
+
+.Menu-content h1 {
+    background-color: transparent;
+    color: var(--gold);
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: overline;
+    letter-spacing: .1vw;
+}
+
+.Menu-btn {
+    background-color: transparent;
+    color: var(--grey_dark);
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: .1vw;
+}
+
+.Menu-btn:hover {
+    color: var(--grey_hover);
+}
+
+.Menu-btn-login {
+    height: 7vh;
+    width: 80%;
+    background-color: transparent;
+    border-top: solid var(--grey_bright) .1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Menu-login-btn {
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    padding: .5vw;
+    border: 0;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Menu-login-btn:hover {
+    color: var(--grey_hover);
+}

@@ -1,0 +1,22 @@
+nav {
+    height: 7vh;
+    width: 100vw;
+    background-color: var(--gold);
+    z-index: 9;
+}
+
+.NavbarOpenMenuBtn {
+    height: 5vh;
+    width: 5vh;
+    background-color: transparent;
+    background-image: url("../assets/icons/menu_nav_btn_128x128.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 0;
+    float: left;
+    position: relative;
+    margin-left: .5vw;
+    margin-top: 1vh;
+    cursor: pointer;
+}
